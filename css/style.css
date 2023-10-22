@@ -1,0 +1,212 @@
+/* Common */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+/* Header */
+header{
+    padding: 30px 0;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+}
+.logo{
+    width: 13%;
+    float: left;
+    margin-top: 10px;
+}
+.logo a img{
+    width: 100%;
+}
+.menu{
+    width: 60%;
+    float: right;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    display: inline-block;
+    margin: 0 50px;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    transition: 1s;
+}
+.menu ul li a:hover{
+    color: #da9696;
+    border-bottom: 1px solid #626262;
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+/* Banner */
+.b_img img{
+    width: 100%;
+}
+/* Getaway */
+.getaway{
+    padding: 100px 0 20px;
+}
+.container2{
+    margin: 0 auto;
+    width: 80%;
+    overflow: hidden;
+}
+.c_light{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.c_title{
+    margin: 25px 0 30px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.c_text{
+    margin: 0;
+    line-height: 24px;
+}
+.mt_45{
+    margin-top: 45px;
+}
+/* Blog */
+.blog{
+    padding-bottom: 100px;
+}
+.s_blog{
+    margin-top: 80px;
+    width: 47%;
+    float: left;
+}
+.s_blog:nth-child(even){
+    margin-left: 6%;
+}
+.s_img img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+/* Newsletter */
+.newsletter{
+    padding: 70px 0;
+    background-color: #f0f0f0;
+}
+.signup{
+    text-align: center;
+}
+.s_h2{
+    color: #333333;
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+.s_form{
+    width: 400px;
+    position: relative;
+    margin: 0 auto;
+}
+.s_form input{
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color: #626262;
+    width: 345px;
+    height: 45px;
+    border: none;
+    border-bottom: 2px solid #000000;
+    background-color: transparent;
+    padding-left: 5px;
+    padding-right: 45px;
+}
+.s_form input:focus{
+    outline: 0;
+}
+.s_form button{
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    top: 15px;
+    right: 0;
+}
+.s_form button:focus{
+    outline: 0;
+}
+/* Know more */
+.know{
+    padding-bottom: 20px;
+}
+.button{
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button1{
+    margin-left: 600px;
+    margin-top: 50px;
+    border: 2px solid #626262;
+}
+.button1:hover{
+    background-color: #626262;
+    color: white;
+}
+
+/* Footer */
+.footer{
+    height: 80px;
+}
+.copy{
+    padding-top: 30px;
+    margin-top: 0px;
+    float: left;
+}
+.icon{
+    float: right;
+}
+.i_p{
+    
+    display: inline-block;
+}
+.fa{
+    padding: 5px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 25px;
+}  
+.fa:hover{
+      opacity: 0.7;
+}
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter{
+    background: #55ACEE;
+    color: white;
+}
+.fa-linkedin{
+    background: #007bb5;
+    color: white;
+}
+.fa-instagram{
+    background: #125688;
+    color: white;
+}
